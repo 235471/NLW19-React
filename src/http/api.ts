@@ -42,7 +42,7 @@ export type GetRanking200 = {
  * @summary Subscribes to the event
  */
 export const getPostSubscriptionsUrl = () => {
-  return `http://localhost:3333/subscriptions`
+  return `https://nlw19-nodejs.onrender.com/subscriptions`
 }
 
 export const postSubscriptions = async (
@@ -66,7 +66,7 @@ export const postSubscriptions = async (
  * @summary Access invite link and redirect user
  */
 export const getInvitesSubscriberIdUrl = (subscriberId: string) => {
-  return `http://localhost:3333/invites/${subscriberId}`
+  return `https://nlw19-nodejs.onrender.com/invites/${subscriberId}`
 }
 
 export const getInvitesSubscriberId = async (
@@ -88,7 +88,7 @@ export const getInvitesSubscriberId = async (
  * @summary Get subscriber invite clicks
  */
 export const getSubscriberRankingClicksURl = (subscriberId: string) => {
-  return `http://localhost:3333/subscribers/${subscriberId}/ranking/clicks`
+  return `https://nlw19-nodejs.onrender.com/subscribers/${subscriberId}/ranking/clicks`
 }
 
 export const getSubscriberRankingClicks = async (
@@ -112,7 +112,7 @@ export const getSubscriberRankingClicks = async (
  * @summary Get subscriber invites count
  */
 export const getSubscriberRankingCountUrl = (subscriberId: string) => {
-  return `http://localhost:3333/subscribers/${subscriberId}/ranking/count`
+  return `https://nlw19-nodejs.onrender.com/subscribers/${subscriberId}/ranking/count`
 }
 
 export const getSubscriberRankingCount = async (
@@ -136,7 +136,7 @@ export const getSubscriberRankingCount = async (
  * @summary Get subscriber rank placement
  */
 export const getSubscriberRankingPlacementUrl = (subscriberId: string) => {
-  return `http://localhost:3333/subscribers/${subscriberId}/ranking/placement`
+  return `https://nlw19-nodejs.onrender.com/subscribers/${subscriberId}/ranking/placement`
 }
 
 export const getSubscriberRankingPlacement = async (
@@ -160,7 +160,7 @@ export const getSubscriberRankingPlacement = async (
  * @summary Get ranking
  */
 export const getGetRankingUrl = () => {
-  return `http://localhost:3333/ranking`
+  return `https://nlw19-nodejs.onrender.com/ranking`
 }
 
 export const getRanking = async (
